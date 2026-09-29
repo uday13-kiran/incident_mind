@@ -1,0 +1,1 @@
+"""IncidentMind application package."""

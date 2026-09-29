@@ -1,0 +1,21 @@
+[project]
+name = "incidentmind-backend"
+version = "2.0.0"
+description = "IncidentMind incident management and AI investigation backend"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.116",
+    "uvicorn[standard]>=0.35",
+    "sqlalchemy>=2.0",
+    "psycopg[binary]>=3.2",
+    "pydantic>=2.11",
+    "pydantic-settings>=2.10",
+    "python-jose[cryptography]>=3.5",
+    "passlib[bcrypt]>=1.7.4",
+    "python-multipart>=0.0.20",
+    "email-validator>=2.3",
+    "groq>=0.31",
+    "hindsight-client>=0.0.1",
+    "argon2-cffi>=25.1.0",
+]
